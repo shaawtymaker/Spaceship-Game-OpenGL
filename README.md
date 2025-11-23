@@ -14,3 +14,17 @@ OpenGL/C  project on the Spaceship Shooting Game
 *******************************************************************
 
 the highcore is stored inside HighScoreFile.txt
+
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone https://github.com/shaawtymaker/todo-app-dbms.git
+
+# Step 2: Navigate to the project directory.
+cd todo-app-dbms
+
+# Step 3: open termial in the project directory and run
+g++ spaceship_fixed.cpp -o spaceship.exe -lfreeglut -lopengl32 -lglu32
+
+# Step 4: run the .exe file
+./spaceship.exe
+```
