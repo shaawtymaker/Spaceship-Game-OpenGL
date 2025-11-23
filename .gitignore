@@ -1,0 +1,21 @@
+# Ignore the game's high score file(s)
+highscore.txt
+HighScoreFile
+# Ignore the compiled executable (windows)
+spaceship.exe
+# Ignore any other executables built locally
+*.exe
+
+# Optional: common editor / OS cruft
+*.log
+*.tmp
+*.bak
+*.obj
+*.o
+*.out
+.DS_Store
+Thumbs.db
+
+# Build directories
+build/
+dist/
