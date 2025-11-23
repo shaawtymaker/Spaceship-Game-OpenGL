@@ -1,35 +1,35 @@
-🚀 Spaceship Shooting Game — OpenGL (C / C++)
+🚀 Spaceship Shooting Game — OpenGL (C/C++)
 
-A classic 2D Space Shooter Game built using OpenGL (FreeGLUT) in C/C++.
-Dodge incoming objects, shoot them down, survive as long as possible, and beat the high score!
+A classic 2D Space Shooter built using OpenGL (FreeGLUT) in C/C++.
+Dodge incoming objects, shoot them down, survive, and beat the high score!
 
 🎮 Game Description
 ********************************************************************
 **                     G A M E   D E S C R I P T I O N S          **
 **                                                                 **
 **   Keyboard Controls:   W, A, S, D                               **
-**   Mouse: Left-click to fire                                     **
-**                                                                 **
+**   Mouse Input:         Left-click to fire laser                 **
+                                                                
 **   INSTRUCTIONS:                                                 **
-**       - Dodge falling objects                                   **
-**       - Shoot them down                                         **
-**                                                                 **
+**       - Dodge incoming objects                                  **
+**       - Shoot objects to earn points                            **
+                                                               
 **   OBJECTIVE:                                                    **
-**       - Beat the High Score                                     **
+**       - Beat the high score                                     **
 **       - +1 point per object destroyed                           **
-**       - +50 points every level up                               **
+**       - +50 points per level up                                 **
 ********************************************************************
 
 
-The game also stores your highest score in:
+High score is automatically saved in:
 
 HighScoreFile.txt
 
 📦 Requirements
 
-You must have the following installed:
+Make sure you have:
 
-g++ / MinGW
+g++ / MinGW (Windows)
 
 OpenGL
 
@@ -37,58 +37,57 @@ FreeGLUT
 
 GLU
 
-(Windows users typically install freeglut and place .dll files next to the executable.)
+FreeGLUT .dll files must be placed next to the executable on Windows.
 
-🛠️ Building the Game
-1️⃣ Clone the repository
-git clone https://github.com/shaawtymaker/Spaceship-Game-OpenGL.git
+```sh
+# Step 1: Clone the repository using the project's Git URL. 
+git clonehttps://github.com/shaawtymaker/Spaceship-Game-OpenGL.git
 
-2️⃣ Navigate to the project folder
-cd Spaceship-Game-OpenGL
+# Step 2: Navigate to the project directory. 
+cd Spaceship-Game-OpenGL 
 
-3️⃣ Compile the game
-g++ spaceship_fixed.cpp -o spaceship.exe -lfreeglut -lopengl32 -lglu32
+# Step 3: open termial in the project directory and run 
+g++ spaceship_fixed.cpp -o spaceship.exe -lfreeglut -lopengl32 -lglu32 
 
-
-(You must run this from inside the project directory.)
-
-4️⃣ Run the game
+# Step 4: run the .exe file 
 ./spaceship.exe
+```
 
-🎯 Gameplay Features
+🎯 Key Features
 
 Smooth spaceship movement
 
-Mouse-aimed laser shooting
+Mouse-aim laser system
 
-Multiple asteroid types
+Multiple asteroid shapes
 
-Increasing difficulty with speed scaling
+Increasing difficulty
 
-Level progression system
+Level progression
 
-High score saving
+Game Over & Restart screens
 
-Game over + restart screen
+High score persistence
 
-Instructions screen & menu UI
+Clean UI (Start / Instructions / Quit)
 
-📁 File Structure
+📁 Folder Structure
 Spaceship-Game-OpenGL/
 │
-├── spaceship_fixed.cpp      # Main game source code
-├── HighScoreFile.txt        # Auto-generated high score file
-├── README.md                # This file
+├── spaceship_fixed.cpp        # Main game source file
+├── HighScoreFile.txt          # Auto-generated high score file
+├── README.md                  # Project readme
 └── (DLLs for FreeGLUT if needed)
 
 📝 Notes
 
-If HighScoreFile.txt doesn’t exist, the game will create it automatically.
+The game creates HighScoreFile.txt automatically if missing.
 
-On first run, the high score is set to 0.
+FreeGLUT .dll is required to run the .exe on Windows.
 
-Ensure FreeGLUT .dll files are in the same directory as the executable.
+You can recompile the game anytime using the g++ command shown above.
 
 ⭐ Credits
 
-This project was built for an OpenGL / Computer Graphics mini-project and showcases classic immediate-mode OpenGL rendering techniques combined with interactive keyboard and mouse handling.
+Built as a Computer Graphics / OpenGL Mini-Project.
+Showcases classic OpenGL immediate-mode rendering + basic game logic.
