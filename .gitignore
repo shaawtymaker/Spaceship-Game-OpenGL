@@ -1,5 +1,5 @@
 # Ignore the game's high score file(s)
-highscore.txt
+highscorefile.txt
 HighScoreFile
 # Ignore the compiled executable (windows)
 spaceship.exe
