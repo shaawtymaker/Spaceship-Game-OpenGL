@@ -17,10 +17,10 @@ the highcore is stored inside HighScoreFile.txt
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone https://github.com/shaawtymaker/todo-app-dbms.git
+https://github.com/shaawtymaker/Spaceship-Game-OpenGL.git
 
 # Step 2: Navigate to the project directory.
-cd todo-app-dbms
+cd Spaceship-Game-OpenGL
 
 # Step 3: open termial in the project directory and run
 g++ spaceship_fixed.cpp -o spaceship.exe -lfreeglut -lopengl32 -lglu32
