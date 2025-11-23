@@ -25,17 +25,17 @@ High score is automatically saved in:
 
 HighScoreFile.txt
 
-📦 Requirements
+## 📦 Requirements
 
 Make sure you have:
 
-g++ / MinGW (Windows)
+- g++ / MinGW (Windows)
 
-OpenGL
+- OpenGL
 
-FreeGLUT
+- FreeGLUT
 
-GLU
+- GLU
 
 FreeGLUT .dll files must be placed next to the executable on Windows.
 
@@ -53,25 +53,25 @@ g++ spaceship_fixed.cpp -o spaceship.exe -lfreeglut -lopengl32 -lglu32
 ./spaceship.exe
 ```
 
-🎯 Key Features
+## 🎯 Key Features
 
-Smooth spaceship movement
+- Smooth spaceship movement
 
-Mouse-aim laser system
+- Mouse-aim laser system
 
-Multiple asteroid shapes
+- Multiple asteroid shapes
 
-Increasing difficulty
+- Increasing difficulty
 
-Level progression
+- Level progression
 
-Game Over & Restart screens
+- Game Over & Restart screens
 
-High score persistence
+- High score persistence
 
-Clean UI (Start / Instructions / Quit)
+- Clean UI (Start / Instructions / Quit)
 
-📁 Folder Structure
+## 📁 Folder Structure
 Spaceship-Game-OpenGL/
 │
 ├── spaceship_fixed.cpp        # Main game source file
@@ -79,7 +79,7 @@ Spaceship-Game-OpenGL/
 ├── README.md                  # Project readme
 └── (DLLs for FreeGLUT if needed)
 
-📝 Notes
+## 📝 Notes
 
 The game creates HighScoreFile.txt automatically if missing.
 
@@ -87,7 +87,7 @@ FreeGLUT .dll is required to run the .exe on Windows.
 
 You can recompile the game anytime using the g++ command shown above.
 
-⭐ Credits
+## ⭐ Credits
 
 Built as a Computer Graphics / OpenGL Mini-Project.
 Showcases classic OpenGL immediate-mode rendering + basic game logic.
