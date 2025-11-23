@@ -1,29 +1,24 @@
-🚀 Spaceship Shooting Game — OpenGL (C/C++)
+# 🚀 Spaceship Shooting Game — OpenGL (C/C++)
 
 A classic 2D Space Shooter built using OpenGL (FreeGLUT) in C/C++.
 Dodge incoming objects, shoot them down, survive, and beat the high score!
 
-🎮 Game Description
-********************************************************************
-**                     G A M E   D E S C R I P T I O N S          **
-**                                                                 **
-**   Keyboard Controls:   W, A, S, D                               **
-**   Mouse Input:         Left-click to fire laser                 **
+## 🎮 Game Description
+
+                 G A M E   D E S C R I P T I O N S          
+                                                                 
+- Keyboard Controls:   W, A, S, D                               
+- Mouse Input:         Left-click to fire laser                 
                                                                 
-**   INSTRUCTIONS:                                                 **
-**       - Dodge incoming objects                                  **
-**       - Shoot objects to earn points                            **
+- INSTRUCTIONS:                                                 
+     - Dodge incoming objects                                  
+     - Shoot objects to earn points                            
                                                                
-**   OBJECTIVE:                                                    **
-**       - Beat the high score                                     **
-**       - +1 point per object destroyed                           **
-**       - +50 points per level up                                 **
-********************************************************************
+- OBJECTIVE:                                                    
+      - Beat the high score                                     
+      - +1 point per object destroyed                           
+      - +50 points per level up                                 
 
-
-High score is automatically saved in:
-
-HighScoreFile.txt
 
 ## 📦 Requirements
 
