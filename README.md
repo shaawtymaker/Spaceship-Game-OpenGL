@@ -5,7 +5,6 @@ Dodge incoming objects, shoot them down, survive, and beat the high score!
 
 ## 🎮 Game Description
 
-                 G A M E   D E S C R I P T I O N S          
                                                                  
 - Keyboard Controls:   W, A, S, D                               
 - Mouse Input:         Left-click to fire laser                 
@@ -18,6 +17,7 @@ Dodge incoming objects, shoot them down, survive, and beat the high score!
       - Beat the high score                                     
       - +1 point per object destroyed                           
       - +50 points per level up                                 
+
 
 
 ## 📦 Requirements
@@ -48,6 +48,7 @@ g++ spaceship_fixed.cpp -o spaceship.exe -lfreeglut -lopengl32 -lglu32
 ./spaceship.exe
 ```
 
+
 ## 🎯 Key Features
 
 - Smooth spaceship movement
@@ -66,13 +67,6 @@ g++ spaceship_fixed.cpp -o spaceship.exe -lfreeglut -lopengl32 -lglu32
 
 - Clean UI (Start / Instructions / Quit)
 
-## 📁 Folder Structure
-Spaceship-Game-OpenGL/
-│
-├── spaceship_fixed.cpp        # Main game source file
-├── HighScoreFile.txt          # Auto-generated high score file
-├── README.md                  # Project readme
-└── (DLLs for FreeGLUT if needed)
 
 ## 📝 Notes
 
